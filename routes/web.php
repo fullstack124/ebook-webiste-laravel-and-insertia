@@ -34,3 +34,15 @@ Route::get('/contact', function () {
 Route::get('/login', function () {
     return  Inertia::render('Auth/Login');
 });
+
+
+Route::get('/admin/login', function () {
+    return  Inertia::render('Admin/Auth/Login');
+});
+
+Route::get('/admin/dashboard', function () {
+    return  Inertia::render('Admin/Dashboard/Dashboard');
+});
+Route::get('/admin/user', function () {
+    return  Inertia::render('Admin/Dashboard/User/CreateUser');
+});

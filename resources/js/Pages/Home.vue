@@ -4,7 +4,7 @@ import BooksVue from './Components/Books.vue';
 import FooterVue from './Components/Footer.vue';
 </script>
 <template>
-    <div>
+    <div class="bg-gray-800">
         <NavbarVue />
         <BooksVue />
         <FooterVue />
